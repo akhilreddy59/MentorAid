@@ -1,136 +1,122 @@
-```md
-# MentorAid
+# MentorAid - Student Risk Management Platform
 
-A mentorship and student support platform designed to streamline mentorship, progress tracking, and resource sharing.  
+MentorAid is a modern web application designed to help educators, mentors, and administrators identify, support, and guide at-risk students using AI-powered analytics, intervention tools, and comprehensive dashboards.
 
 ---
 
-## 🚀 Tech Stack
+## Tech Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=vite,react,ts,tailwind,git,github,nodejs,npm" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="React" width="48" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="TypeScript" width="48" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-plain.svg" alt="Tailwind CSS" width="48" />
+  <img src="https://vitejs.dev/logo.svg" alt="Vite" width="48" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="48" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/threejs/threejs-original.svg" alt="Three.js" width="48" />
 </p>
 
-- **Frontend**: Vite + React + TypeScript  
-- **Styling / UI**: Tailwind CSS  
-- **Version Control**: Git + GitHub  
-- **Runtime / Tools**: Node.js, npm  
+- **Frontend:** React, TypeScript, Tailwind CSS, Vite
+- **Visualization:** Recharts
+- **Icons:** Lucide React
+- **WebGL Effects:** OGL/Three.js
 
 ---
 
-## 📖 Features
+## Features
 
-- ✅ Mentor / Mentee role support  
-- ✅ Student dashboards & progress tracking  
-- ✅ Resource sharing & collaboration  
-- ✅ Analytics & insights dashboard  
-- ✅ Clean UI with Tailwind CSS  
-
----
-
-## 📂 Project Structure
-
-```
-
-├── public/                # Static assets
-├── src/                   # Source files
-│   ├── components/        # Reusable UI components
-│   ├── pages/             # Pages / Views
-│   ├── styles/            # Global styles
-│   └── main.tsx           # Entry point
-├── package.json
-├── tsconfig.json
-├── vite.config.ts
-├── tailwind.config.js
-└── README.md
-
-````
+- **AI-Powered Risk Prediction:** Advanced algorithms to identify at-risk students early.
+- **Unified Student Support:** Consolidate attendance, grades, fees, and interventions in one platform.
+- **Data-Driven Insights:** Visual dashboards and charts for actionable intervention strategies.
+- **Intervention Management:** Track meetings, plans, and resource allocation.
+- **Smart Notifications:** Automated alerts for critical student situations.
+- **File Upload:** Import student data via CSV/Excel.
+- **Role-Based Access:** Tailored experiences for mentors, teachers, and administrators.
+- **Future Enhancements:** Sentiment AI, gamified mentor view, multi-language support, and more.
 
 ---
 
-## 🛠️ Getting Started
+## Getting Started
 
 ### Prerequisites
-- Node.js >= 16  
-- npm >= 8 (or use pnpm/yarn if configured)  
+
+- Node.js (v18+ recommended)
+- npm
 
 ### Installation
-```bash
-# Clone the repository
-git clone https://github.com/akhilreddy59/MentorAid.git
-cd MentorAid
 
-# Install dependencies
+```sh
 npm install
-````
+```
 
 ### Development
 
-```bash
+```sh
 npm run dev
 ```
 
-This will start the development server (default: `http://localhost:5173`).
+Open [http://localhost:5173](http://localhost:5173) in your browser.
 
-### Production Build
+### Build
 
-```bash
+```sh
 npm run build
 ```
 
-Outputs static files to the `dist/` folder.
+### Lint
 
-### Preview Production Build
-
-```bash
-npm run preview
+```sh
+npm run lint
 ```
 
 ---
 
-## 📜 Available Scripts (from `package.json`)
+## Project Structure
 
-| Script                   | Description                          |
-| ------------------------ | ------------------------------------ |
-| `dev`                    | Start local dev server (Vite)        |
-| `build`                  | Build for production                 |
-| `preview`                | Preview the production build locally |
-| `lint` *(if configured)* | Run ESLint checks                    |
-
----
-
-## 🤝 Contributing
-
-1. Fork the repo
-2. Create a feature branch: `git checkout -b feature/your-feature`
-3. Commit changes: `git commit -m "Add new feature"`
-4. Push branch: `git push origin feature/your-feature`
-5. Open a Pull Request
-
----
-
-## 📬 Contact
-
-* GitHub: [@akhilreddy59](https://github.com/akhilreddy59)
-* Email: *akhilkumarreddy2006@gmail.com*
-* 📄 [View Full Project Document](https://docs.google.com/document/d/1Znbuucx7D6-GQHO1oP_Lbe5MOCbcTKKU/edit?usp=sharing&ouid=113422780112984658110&rtpof=true&sd=true)
-
-
----
-
-## 📝 License
-
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
-
+```
+src/
+  App.tsx
+  main.tsx
+  index.css
+  components/
+    dashboard/
+    introduction/
+    student/
+    ui/
+  contexts/
+  data/
+  pages/
+  types/
+public/
+index.html
+...
 ```
 
 ---
 
-✅ This version includes:
-- **Auto-generated tech stack badges** (from [skillicons.dev](https://skillicons.dev))  
-- **Your actual npm scripts** (`dev`, `build`, `preview`)  
-- A clean, GitHub-ready format  
+## Demo Access
+
+Use any email/password combination to access the demo.  
+Try:  
+- `admin@school.edu` (Admin)  
+- `mentor@school.edu` (Mentor)  
+- `teacher@school.edu` (Teacher)
 
 ---
 
+## Documentation
 
+📄 [View Full Documentation](https://docs.google.com/document/d/1Znbuucx7D6-GQHO1oP_Lbe5MOCbcTKKU/edit?usp=sharing&ouid=113422780112984658110&rtpof=true&sd=true)
+
+---
+
+## Contributing
+
+Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
+
+---
+
+## License
+
+MIT
+
+---
