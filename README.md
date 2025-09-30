@@ -113,6 +113,8 @@ npm run preview
 
 * GitHub: [@akhilreddy59](https://github.com/akhilreddy59)
 * Email: *akhilkumarreddy2006@gmail.com*
+* 📄 [View Full Project Document](https://docs.google.com/document/d/1Znbuucx7D6-GQHO1oP_Lbe5MOCbcTKKU/edit?usp=sharing&ouid=113422780112984658110&rtpof=true&sd=true)
+
 
 ---
 
